@@ -9,5 +9,5 @@ class Board < ActiveRecord::Base
 	validates :name, presence: true
 	validates :height, presence: true, numericality: { only_integer: true, greater_than: 0 }
 	validates :width, presence: true, numericality: { only_integer: true, greater_than: 0 }
-	validates :timezone, presence: true
+	validates_inclusion_of :timezone, in: ActiveSupport::TimeZone.zones_map { |m| m.name }, message: "is not a valid Timezone"
 end

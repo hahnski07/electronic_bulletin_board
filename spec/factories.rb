@@ -2,8 +2,8 @@ FactoryGirl.define do
   factory :user do
     sequence(:email) {|n| "user#{n}@example.com"}
     sequence(:name) {|n| "User #{n}"}
-#    password "foobar"
-#    password_confirmation "foobar"
+    password 'foobar'
+    password_confirmation 'foobar'
 
     factory :admin do
       admin true
@@ -23,7 +23,6 @@ FactoryGirl.define do
     x_location 4
     y_location 5
     advertisement
-    board
   end
 
   factory :advertisement do
@@ -34,5 +33,17 @@ FactoryGirl.define do
     image 'FAKE IMAGE'
     user
     board
+  end
+
+  factory :ad_payment, class: PaymentDetail do
+    association :payable, factory: :advertisement
+    amount 55
+    user
+  end
+
+  factory :board_payment, class: PaymentDetail do
+    association :payable, factory: :board
+    amount 33
+    user
   end
 end

@@ -4,12 +4,11 @@ describe Tile do
 	let(:user) { FactoryGirl.create(:user) }
 	let(:board) { FactoryGirl.create(:board, user: user) }
 	let(:ad) { FactoryGirl.create(:advertisement, user: user, board: board) }
-	let(:tile) { FactoryGirl.create(:tile, board: board, advertisement: ad) }
+	let(:tile) { FactoryGirl.create(:tile, advertisement: ad) }
 
 	subject { tile }
 
 	it { should respond_to(:board) }
-	it { should respond_to(:board_id) }
 	it { should respond_to(:advertisement) }
 	it { should respond_to(:advertisement_id) }
 	it { should respond_to(:x_location) }
@@ -50,6 +49,24 @@ describe Tile do
 	#
 	describe 'validating attributes' do
 		describe 'x_location' do
+			describe 'nil' do
+				before { tile.x_location = nil }
+
+				it { should_not be_valid }
+			end
+
+			describe 'blank' do
+				before { tile.x_location = '' }
+
+				it { should_not be_valid }
+			end
+
+			describe 'text' do
+				before { tile.x_location = 'text' }
+
+				it { should_not be_valid }
+			end
+
 			describe 'negative' do
 				before { tile.x_location = -1 }
 
@@ -59,7 +76,7 @@ describe Tile do
 			describe 'larger than board width' do
 				before do
 					tile.x_location = 5
-					board.width = 5
+					tile.board.width = 5
 				end
 
 				it { should_not be_valid }
@@ -86,6 +103,22 @@ describe Tile do
 		end
 
 		describe 'y_location' do
+			describe 'nil' do
+				before { tile.y_location = nil }
+
+				it { should_not be_valid }
+			end
+
+			describe 'blank' do
+				before { tile.y_location = '' }
+
+				it { should_not be_valid }
+			end
+
+			describe 'text' do
+				before { tile.y_location = 'text' }
+			end
+
 			describe 'negative' do
 				before { tile.y_location = -1 }
 
@@ -95,7 +128,7 @@ describe Tile do
 			describe 'larger than board height' do
 				before do
 					tile.y_location = 5
-					board.height = 5
+					tile.board.height = 5
 				end
 
 				it { should_not be_valid }
@@ -122,6 +155,24 @@ describe Tile do
 		end
 
 		describe 'cost' do
+			describe 'nil' do
+				before { tile.cost = nil }
+
+				it { should_not be_valid }
+			end
+
+			describe 'blank' do
+				before { tile.cost = '' }
+
+				it { should_not be_valid }
+			end
+
+			describe 'text' do
+				before { tile.cost = 'text' }
+
+				it { should_not be_valid }
+			end
+
 			describe 'negative' do
 				before { tile.cost = -1 }
 

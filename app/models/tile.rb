@@ -11,28 +11,30 @@ class Tile < ActiveRecord::Base
 	validate :size_constraints
 	
 	def size_constraints
-		if self.x_location >= self.board.width
-			errors.add(:x_location, "can't be larger than board width")
-		end
+		if x_location.is_a?(Integer) && y_location.is_a?(Integer)
+			if x_location >= board.width
+				errors.add(:x_location, "can't be larger than board width")
+			end
 
-		if self.x_location < self.advertisement.x_location
-			errors.add(:x_location, "can't be smaller than advertisement x_location")
-		end
+			if x_location < advertisement.x_location
+				errors.add(:x_location, "can't be smaller than advertisement x_location")
+			end
 
-		if self.x_location > (self.advertisement.x_location + self.advertisement.width - 1)
-			errors.add(:x_location, "can't be larger than the advertisement")
-		end
+			if x_location > (advertisement.x_location + advertisement.width - 1)
+				errors.add(:x_location, "can't be larger than the advertisement")
+			end
 
-		if self.y_location >= self.board.height
-			errors.add(:y_location, "can't be larger than board height")
-		end
+			if y_location >= board.height
+				errors.add(:y_location, "can't be larger than board height")
+			end
 
-		if self.y_location < self.advertisement.y_location
-			errors.add(:y_location, "can't be smaller than advertisement y_location")
-		end
+			if y_location < advertisement.y_location
+				errors.add(:y_location, "can't be smaller than advertisement y_location")
+			end
 
-		if self.y_location > (self.advertisement.y_location + self.advertisement.height - 1)
-			errors.add(:y_location, "can't be larger than the advertisement")
+			if y_location > (advertisement.y_location + advertisement.height - 1)
+				errors.add(:y_location, "can't be larger than the advertisement")
+			end
 		end
 	end
 end

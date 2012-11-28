@@ -42,14 +42,22 @@ describe "AdvertisementPages" do
 	expect { click_button submit }.to change(PaymentDetail, :count).by(1)
       end
 
+      it 'should create width x height tiles' do
+	expect do
+	  click_button submit
+	end.to change { Tile.last.id }.by(15)
+      end
+
       describe 'after saving the advertisment' do
-	let(:ad) { Advertisement.find_by_board_id(board) }
+	let(:ad) { Advertisement.last }
+	let(:payment) { ad.payment_details.last }
 
 	before { click_button submit }
 
 	specify { ad.board.should == board }
 	specify { ad.user.should == user }
-	specify { ad.payment_details.first.amount.should == ad.width * ad.height }
+	specify { payment.amount.should == ad.width * ad.height }
+
 	it { should have_success('Advertisement created') }
 	it { should have_content(ad.width) }
 	it { should have_content(ad.height) }
@@ -58,6 +66,23 @@ describe "AdvertisementPages" do
 	it { should have_content(ad.user.name) }
 	it { should have_selector("img#ad_#{ad.id}_image") }
       end
+    end
+  end
+
+  describe 'having an advertisement age' do
+    let(:ad) { FactoryGirl.create(:advertisement, height: 4, width: 4) }
+    let(:payment) { ad.payment_details.last }
+
+    describe 'should reduce in cost by half' do
+      before { ad.board.age }
+
+      specify { payment.amount.should == 4 * 4 / 2 }
+    end
+
+    describe 'should never cost less than $0.01' do
+      before { 7.times { ad.board.age } }
+
+      specify { payment.amount.should == 0 }
     end
   end
 end

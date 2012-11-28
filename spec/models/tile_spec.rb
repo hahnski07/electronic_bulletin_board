@@ -14,6 +14,7 @@ describe Tile do
 	it { should respond_to(:x_location) }
 	it { should respond_to(:y_location) }
 	it { should respond_to(:cost) }
+	it { should respond_to(:age) }
 
 	describe 'accessible attributes' do
 		it 'should not allow access to board_id' do
@@ -77,9 +78,6 @@ describe Tile do
 				before do
 					tile.x_location = 5
 					tile.board.width = 5
-				end
-
-				it { should_not be_valid }
 			end
 
 			describe 'smaller than ad x_location' do

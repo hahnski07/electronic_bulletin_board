@@ -41,21 +41,23 @@ textarea
 
 h1, h2, h3, h4, h5, h6
 {
+	font-family: "Myriad Pro", Myriad, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: normal;
 	line-height: 1;
 }
 
 h1
 {
-	font-size: 3em;
-	letter-spacing: -2px;
+	font-size: 24pt;
+	/*letter-spacing: -2px;*/
 	margin-bottom: 30px;
 	text-align: center;
 }
 
 h2
 {
-	font-size: 1.7em;
-	letter-spacing: -1px;
+	font-size: 20pt;
+	/*letter-spacing: -1px;*/
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;

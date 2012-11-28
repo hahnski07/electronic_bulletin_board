@@ -14,7 +14,7 @@ class Advertisement < ActiveRecord::Base
 	
 	validates :board, presence: true
 	
-	validate :size_constraints
+	#validate :size_constraints
 	
 	def size_constraints
 		if x_location.is_a?(Integer) && y_location.is_a?(Integer) && width.is_a?(Integer) && height.is_a?(Integer)

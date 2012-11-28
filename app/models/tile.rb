@@ -10,6 +10,11 @@ class Tile < ActiveRecord::Base
 	
 	validate :size_constraints
 	
+	def age
+	
+	end
+	
+	private
 	def size_constraints
 		if x_location.is_a?(Integer) && y_location.is_a?(Integer)
 			if x_location >= board.width

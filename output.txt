@@ -1,7 +1,287 @@
-...........................................................................................................................................
+.....................................................FFFFFF..FFFFFFFFFF....................................FFFFFFFFFFFFFFF...........................................................FF.FF.
 
-Finished in 33.04 seconds
-139 examples, 0 failures
+Failures:
 
-Randomized with seed 33567
+  1) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x52c9008>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  2) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5251560>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  3) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5208e40>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  4) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x51c1110>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  5) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5179e60>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  6) BoardPages display 
+     Failure/Error: before { visit board_path(board) }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5118ff0>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  7) BoardPages create new board with valid information should create a board
+     Failure/Error: expect { click_button submit }.to change(Board, :count).by(1)
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x4125450>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:61:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:61:in `block (4 levels) in <top (required)>'
+
+  8) BoardPages create new board with valid information should create a payment detail
+     Failure/Error: expect { click_button submit }.to change(PaymentDetail, :count).by(1)
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x523c848>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:65:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:65:in `block (4 levels) in <top (required)>'
+
+  9) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5107de8>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  10) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x52af538>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  11) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x517ab08>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  12) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5308de8>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  13) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x51c69f0>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  14) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x4037010>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  15) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5215380>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  16) BoardPages create new board with valid information after saving the board 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x407dc00>
+     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
+     # (eval):2:in `click_button'
+     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+
+  17) AdvertisementPages create new advertisement with missing information should not create an advertisment
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  18) AdvertisementPages create new advertisement with missing information after submission 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  19) AdvertisementPages create new advertisement with valid information should create an advertisment
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  20) AdvertisementPages create new advertisement with valid information should create a payment detail
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  21) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  22) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  23) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  24) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  25) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  26) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  27) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  28) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  29) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  30) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: visit new_board_advertisement_path(board)
+     AbstractController::ActionNotFound:
+       The action 'new' could not be found for AdvertisementsController
+     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  31) AuthorizationPages user profile access by different user 
+     Failure/Error: it { should have_error('Wrong user') }
+       expected #<Capybara::Session> to have error "Wrong user"
+     # ./spec/requests/authorization_pages_spec.rb:20:in `block (3 levels) in <top (required)>'
+
+  32) UserPages profile after signing in 
+     Failure/Error: it { should have_button('Create board') }
+       expected button "Create board" to return something
+     # ./spec/requests/user_pages_spec.rb:62:in `block (4 levels) in <top (required)>'
+
+  33) UserPages user listing signed in as administrator should remove a user on deletion
+     Failure/Error: expect { click_link('delete') }.to change(User, :count).by(-1)
+     Capybara::ElementNotFound:
+       no link with title, id or text 'delete' found
+     # (eval):2:in `click_link'
+     # ./spec/requests/user_pages_spec.rb:88:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:88:in `block (4 levels) in <top (required)>'
+
+  34) UserPages user listing signed in as administrator 
+     Failure/Error: it { should have_link('delete', href: user_path(user)) }
+       expected link "delete" to return something
+     # ./spec/requests/user_pages_spec.rb:82:in `block (4 levels) in <top (required)>'
+
+  35) UserPages user listing signed in as administrator shouldn't allow self to be deleted
+     Failure/Error: expect { delete user_path(admin) }.not_to change(User, :count)
+     ActionView::MissingTemplate:
+       Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+         * "C:/inetpub/wwwroot/Rails/electronic_bulletin_board/app/views"
+     # C:in `find_template'
+     # ./spec/requests/user_pages_spec.rb:85:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:85:in `block (4 levels) in <top (required)>'
+
+Finished in 1 minute 8.24 seconds
+187 examples, 35 failures
+
+Failed examples:
+
+rspec ./spec/requests/board_pages_spec.rb:27 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:24 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:25 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:26 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:23 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:28 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:60 # BoardPages create new board with valid information should create a board
+rspec ./spec/requests/board_pages_spec.rb:64 # BoardPages create new board with valid information should create a payment detail
+rspec ./spec/requests/board_pages_spec.rb:79 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:75 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:76 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:78 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:81 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:74 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:77 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:80 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/advertisement_pages_spec.rb:17 # AdvertisementPages create new advertisement with missing information should not create an advertisment
+rspec ./spec/requests/advertisement_pages_spec.rb:24 # AdvertisementPages create new advertisement with missing information after submission 
+rspec ./spec/requests/advertisement_pages_spec.rb:37 # AdvertisementPages create new advertisement with valid information should create an advertisment
+rspec ./spec/requests/advertisement_pages_spec.rb:41 # AdvertisementPages create new advertisement with valid information should create a payment detail
+rspec ./spec/requests/advertisement_pages_spec.rb:52 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:50 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:56 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:58 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:54 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:55 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:59 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:57 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:53 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:51 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/authorization_pages_spec.rb:20 # AuthorizationPages user profile access by different user 
+rspec ./spec/requests/user_pages_spec.rb:62 # UserPages profile after signing in 
+rspec ./spec/requests/user_pages_spec.rb:87 # UserPages user listing signed in as administrator should remove a user on deletion
+rspec ./spec/requests/user_pages_spec.rb:82 # UserPages user listing signed in as administrator 
+rspec ./spec/requests/user_pages_spec.rb:84 # UserPages user listing signed in as administrator shouldn't allow self to be deleted
+
+Randomized with seed 62617
 

@@ -1,0 +1,27 @@
+<% provide(:title, "Create Board") %>
+<h1>Create Board</h1>
+
+<div class="row">
+	<div class="span6 offset">
+	<%= form_for(@board) do |board| %>
+		<%= render partial: 'shared/error_messages', object: board.object %>
+	
+		<%= board.label :name %>
+		<%= board.text_field :name %>
+		
+		<%= board.label :timezone %>
+		<%= board.time_zone_select(:timezone) %>
+		
+		<%= board.label :width %>
+		<%= board.text_field :width %>
+		
+		<%= board.label :height %>
+		<%= board.text_field :height %>
+		
+		<%= board.submit "Create board", class: "btn btn-medium btn-primary" %>
+	<% end %>
+	</div>
+</div>
+
+<div id="board_cost" style="margin: 3px; color: #FF0000; font-weight: bold;"></div>
+<div id="board_preview" style="box-shadow: 0px 0px 3px #000000; background: url('/assets/grid.png') repeat;"></div>

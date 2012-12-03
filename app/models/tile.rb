@@ -1,17 +1,28 @@
 class Tile < ActiveRecord::Base
 	attr_accessible :x_location, :y_location
 
+	before_update :update_cost
+	
 	belongs_to :advertisement
 	has_one :board, through: :advertisement
 	
 	validates :x_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 	validates :y_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
-	validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0 }
+	#validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0 }
 	
-	validate :size_constraints
+	#validate :size_constraints
 	
 	def age
 	
+	end
+	
+	def update_cost
+		if self.cost.nil?
+			self.cost = 0.0
+		else
+			self.cost = [1.0, self.cost * 2.0].max
+		end
+		true
 	end
 	
 	private

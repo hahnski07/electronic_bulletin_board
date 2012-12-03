@@ -39,12 +39,12 @@ describe Tile do
 	#
 	# It is important to note that because FactoryGirl creates the
 	# objects in the DB, it expects them to validate successfully before
-	# returning.  This is important with let since we are lazily
+	# returning.	This is important with let since we are lazily
 	# creating our objects, so the first time we see an object it is
-	# also being created for us.  We need to be sure that the order we
-	# list the objects will ensure they remain valid upon creation.  We
+	# also being created for us.	We need to be sure that the order we
+	# list the objects will ensure they remain valid upon creation.	We
 	# could solve this by using build instead of create, but I expect
-	# we'll want truly created objects for future tests.  In the
+	# we'll want truly created objects for future tests.	In the
 	# meantime, if we put tile before manipulating board, ad, or user,
 	# then things should "just work".
 	#
@@ -78,6 +78,9 @@ describe Tile do
 				before do
 					tile.x_location = 5
 					tile.board.width = 5
+				end
+
+				it { should_not be_valid }
 			end
 
 			describe 'smaller than ad x_location' do

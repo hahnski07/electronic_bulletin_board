@@ -10,3 +10,44 @@
 		</section>
 	</aside>
 </div>
+
+<div style="margin-top: 10px;">
+	<h3>Account Activity</h3>
+	<%  dates = Hash.new
+		@user.payment_details.reverse_each do |payment_detail|
+			time = time_ago_in_words(payment_detail.created_at).capitalize
+			if dates[time].nil? 
+				dates[time] = []
+			end
+			if payment_detail.payable_type == "Board"
+				board = Board.find(payment_detail.payable_id)
+				if payment_detail.amount > 0
+					dates[time].push({text: "Revenue from board '#{board.name}' (#{board.width}x#{board.height})", amount: number_to_currency(payment_detail.amount), color: "#006100"})
+				else
+					dates[time].push({text: "Create board '#{board.name}' (#{board.width}x#{board.height})", amount: number_to_currency(payment_detail.amount), color: "#9C0006"})
+				end
+				
+			else
+				advertisement = Advertisement.find(payment_detail.payable_id)
+				dates[time].push({text: "Daily charge for ad on '#{advertisement.board.name}'", amount: number_to_currency(payment_detail.amount), color: (payment_detail.amount < 0) ? "#9C0006" : "#006100"})
+			end
+			
+		end
+	%>
+	<% dates.each_pair do |key, value| %>
+	<div style="margin-top: 10px; font-size: 9pt; color: #888888;"><%= key %> ago:</div>
+		<% value.each do |item| %>
+		<div style="padding-left: 10px;">
+			<div style="display: inline-block; width: 400px;"><%= item[:text] %></div>
+			<div style="display: inline-block; width: 100px; text-align: right; color: <%= item[:color] %>; font-family: 'Courier New';"><%= item[:amount] %></div>
+		</div>
+		<% end %>
+	<% end %>
+	<div style="margin-top: 12px; border-top: 1px solid #CCCCCC; padding-top: 3px; width: 520px;">
+		<div style="padding-left: 10px;">
+			<div style="display: inline-block; width: 400px;">Account balance</div>
+			<div style="display: inline-block; width: 100px; text-align: right; font-family: 'Courier New';"><%= number_to_currency(PaymentDetail.sum(:amount, conditions: ['user_id = ?', @user.id])) %></div>
+		</div>
+	</div>
+	
+</div>

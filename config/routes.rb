@@ -6,10 +6,13 @@ ElectronicBulletinBoard::Application.routes.draw do
 		resources :advertisements
 	end
 	
-	match '/signup/', to: 'users#new'
+	match '/signup', to: 'users#new'
 	
-	match '/signin/', to: 'sessions#new'
+	match '/signin', to: 'sessions#new'
 	match '/signout', to: 'sessions#destroy', via: :delete
+	
+	match '/cost_estimate', to: 'static_pages#cost_estimate'
+	match '/charge_advertisements', to: 'static_pages#charge_advertisements'
 	
 	root to: 'static_pages#home'
 	

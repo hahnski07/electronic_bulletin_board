@@ -1,13 +1,52 @@
 <% provide(:title, "Create Advertisement") %>
+
+<script type="text/javascript">
+$(function(){
+	$.boardId = <%= @board.id %>;
+	$.boardWidth = <%= @board.width %>;
+	$.boardHeight = <%= @board.height %>;
+	
+	if ($("#advertisement_x_location").val() == "")
+		$("#advertisement_x_location").val("0");
+	if ($("#advertisement_y_location").val() == "")
+		$("#advertisement_y_location").val("0");
+	if ($("#advertisement_width").val() == "")
+		$("#advertisement_width").val("1");
+	if ($("#advertisement_height").val() == "")
+		$("#advertisement_height").val("1");
+
+	UpdateAdvertisement();
+	
+	$("#advertisement_x_location, #advertisement_y_location, #advertisement_width, #advertisement_height").keyup(UpdateAdvertisement);
+});
+
+function UpdateAdvertisement()
+{	
+	var x = parseInt($("#advertisement_x_location").val());
+	var y = parseInt($("#advertisement_y_location").val());
+	var width = parseInt($("#advertisement_width").val());
+	var height = parseInt($("#advertisement_height").val());	
+		
+	if (x >= 0 && y >= 0 && width > 0 && height > 0 && x + width <= $.boardWidth && y + height <= $.boardHeight)
+	{
+		$("#advertisement_preview").css({top: (y * 64) + "px", left: (x * 64) + "px"}).width(width * 64).height(height * 64);
+		
+		$.get("/cost_estimate/", {"board": $.boardId, x_location: x, y_location: y, width: width, height: height}, function(data){
+			$("#advertisement_cost_estimate").text("Total Estimated Cost: $" + data["estimatedCost"]);
+		}, "json");
+	}
+}
+</script>
+
 <h1>Create Advertisment</h1>
 
 <div class="row">
 	<div class="span6 offset">
-	<%= form_for([@board, @advertisement]) do |advertisement| %>
+	<%= form_for([@board, @advertisement], html: { multipart: true }) do |advertisement| %>
 		<%= render partial: 'shared/error_messages', object: advertisement.object %>
 		
 		<%= advertisement.label :image %>
-		<%= advertisement.file_field :image %>
+		<%= file_field_tag :image_contents %>
 		
 		<%= advertisement.label :x_location %>
 		<%= advertisement.text_field :x_location %>
@@ -26,6 +65,10 @@
 	</div>
 </div>
 
-<div id="board_preview" style="box-shadow: 0px 0px 3px #000000; width: <%= @board.width * 64 %>px; height: <%= @board.height * 64 %>px; position: relative;">
-	<div id="advertisement_preview" style="position: absolute; box-shadow: 0px 0px 3px #FF0000;"></div>
+<div id="advertisement_cost_estimate" style="color: #FF0000; font-weight: bold;"></div>
+<div id="board_display" style=" width: <%= @board.width * 64 %>px; height: <%= @board.height * 64 %>px;">
+<% @board.advertisements.each do |advertisement| %>
+	<div class="advertisement_display" style="left: <%= advertisement.x_location * 64 %>px; top: <%= advertisement.y_location * 64 %>px; width: <%= advertisement.width * 64 %>px; height: <%= advertisement.height * 64 %>px; background: #3F647F url('/images/<%= advertisement.id %>');"></div>
+<% end %>
+	<div id="advertisement_preview" style="position: absolute; box-shadow: 0px 0px 3px #FF0000; background: #FFFFFF;"></div>
 </div>

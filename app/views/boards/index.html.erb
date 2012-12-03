@@ -1,6 +1,7 @@
 <% provide(:title, 'All Boards') %>
 <h1>All Boards</h1>
 
+<div><%= link_to "Create board", new_board_path, class: "btn btn-medium btn-primary" %></div>
 <ul class="boards">
 	<% @boards.each do |board| %>
 	<li>

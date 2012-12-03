@@ -1,287 +1,2365 @@
-.....................................................FFFFFF..FFFFFFFFFF....................................FFFFFFFFFFFFFFF...........................................................FF.FF.
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 
 Failures:
 
-  1) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x52c9008>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  1) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:15:in `block (2 levels) in <top (required)>'
 
-  2) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5251560>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  2) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:13:in `block (2 levels) in <top (required)>'
 
-  3) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5208e40>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  3) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:17:in `block (2 levels) in <top (required)>'
 
-  4) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x51c1110>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  4) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:16:in `block (2 levels) in <top (required)>'
 
-  5) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5179e60>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  5) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:18:in `block (2 levels) in <top (required)>'
 
-  6) BoardPages display 
-     Failure/Error: before { visit board_path(board) }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5118ff0>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+  6) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:10:in `block (2 levels) in <top (required)>'
 
-  7) BoardPages create new board with valid information should create a board
-     Failure/Error: expect { click_button submit }.to change(Board, :count).by(1)
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x4125450>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:61:in `block (5 levels) in <top (required)>'
-     # ./spec/requests/board_pages_spec.rb:61:in `block (4 levels) in <top (required)>'
+  7) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:12:in `block (2 levels) in <top (required)>'
 
-  8) BoardPages create new board with valid information should create a payment detail
-     Failure/Error: expect { click_button submit }.to change(PaymentDetail, :count).by(1)
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x523c848>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:65:in `block (5 levels) in <top (required)>'
-     # ./spec/requests/board_pages_spec.rb:65:in `block (4 levels) in <top (required)>'
+  8) PaymentDetail 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:11:in `block (2 levels) in <top (required)>'
 
-  9) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5107de8>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  9) PaymentDetail accessible attributes should not allow access to payable_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/payment_detail_spec.rb:22:in `block (3 levels) in <top (required)>'
 
-  10) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x52af538>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  10) PaymentDetail accessible attributes should not allow access to user_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/payment_detail_spec.rb:34:in `block (3 levels) in <top (required)>'
 
-  11) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x517ab08>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  11) PaymentDetail accessible attributes should not allow access to payable_type
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'payment_details'>
+     # ./spec/models/payment_detail_spec.rb:28:in `block (3 levels) in <top (required)>'
 
-  12) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5308de8>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  12) PaymentDetail validating attributes amount nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:43:in `block (5 levels) in <top (required)>'
 
-  13) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x51c69f0>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  13) PaymentDetail validating attributes amount text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:55:in `block (5 levels) in <top (required)>'
 
-  14) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x4037010>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  14) PaymentDetail validating attributes amount blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/payment_detail_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/payment_detail_spec.rb:49:in `block (5 levels) in <top (required)>'
 
-  15) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x5215380>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  15) AdvertisementPages create new advertisement with missing information should not create an advertisment
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  16) BoardPages create new board with valid information after saving the board 
-     Failure/Error: before { click_button submit }
-     ActionView::Template::Error:
-       undefined local variable or method `new_advertisement_path' for #<#<Class:0x50d1968>:0x407dc00>
-     # ./app/views/boards/show.html.erb:10:in `_app_views_boards_show_html_erb__617555482_43400304'
-     # (eval):2:in `click_button'
-     # ./spec/requests/board_pages_spec.rb:69:in `block (5 levels) in <top (required)>'
+  16) AdvertisementPages create new advertisement with missing information after submission 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  17) AdvertisementPages create new advertisement with missing information should not create an advertisment
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+  17) AdvertisementPages create new advertisement with valid information should create an advertisment
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  18) AdvertisementPages create new advertisement with missing information after submission 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+  18) AdvertisementPages create new advertisement with valid information should create width x height tiles
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  19) AdvertisementPages create new advertisement with valid information should create an advertisment
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+  19) AdvertisementPages create new advertisement with valid information should create a payment detail
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  20) AdvertisementPages create new advertisement with valid information should create a payment detail
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+  20) AdvertisementPages create new advertisement with valid information after saving the advertisment 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   21) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   22) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   23) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   24) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   25) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   26) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   27) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   28) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
   29) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
 
-  30) AdvertisementPages create new advertisement with valid information after saving the advertisment 
-     Failure/Error: visit new_board_advertisement_path(board)
-     AbstractController::ActionNotFound:
-       The action 'new' could not be found for AdvertisementsController
-     # ./spec/requests/advertisement_pages_spec.rb:13:in `block (3 levels) in <top (required)>'
+  30) AdvertisementPages having an advertisement age should reduce in cost by half 
+     Failure/Error: let(:ad) { FactoryGirl.create(:advertisement, height: 4, width: 4) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'advertisements'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:73:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:77:in `block (4 levels) in <top (required)>'
 
-  31) AuthorizationPages user profile access by different user 
-     Failure/Error: it { should have_error('Wrong user') }
-       expected #<Capybara::Session> to have error "Wrong user"
-     # ./spec/requests/authorization_pages_spec.rb:20:in `block (3 levels) in <top (required)>'
+  31) AdvertisementPages having an advertisement age should never cost less than $0.01 
+     Failure/Error: let(:ad) { FactoryGirl.create(:advertisement, height: 4, width: 4) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'advertisements'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/advertisement_pages_spec.rb:73:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:83:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/advertisement_pages_spec.rb:83:in `times'
+     # ./spec/requests/advertisement_pages_spec.rb:83:in `block (4 levels) in <top (required)>'
 
-  32) UserPages profile after signing in 
-     Failure/Error: it { should have_button('Create board') }
-       expected button "Create board" to return something
-     # ./spec/requests/user_pages_spec.rb:62:in `block (4 levels) in <top (required)>'
+  32) StaticPages Home page 
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/static_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
 
-  33) UserPages user listing signed in as administrator should remove a user on deletion
-     Failure/Error: expect { click_link('delete') }.to change(User, :count).by(-1)
-     Capybara::ElementNotFound:
-       no link with title, id or text 'delete' found
-     # (eval):2:in `click_link'
-     # ./spec/requests/user_pages_spec.rb:88:in `block (5 levels) in <top (required)>'
-     # ./spec/requests/user_pages_spec.rb:88:in `block (4 levels) in <top (required)>'
+  33) StaticPages Home page should not be accessible via some other route
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/static_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
 
-  34) UserPages user listing signed in as administrator 
-     Failure/Error: it { should have_link('delete', href: user_path(user)) }
-       expected link "delete" to return something
-     # ./spec/requests/user_pages_spec.rb:82:in `block (4 levels) in <top (required)>'
+  34) StaticPages Home page 
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/static_pages_spec.rb:7:in `block (3 levels) in <top (required)>'
 
-  35) UserPages user listing signed in as administrator shouldn't allow self to be deleted
-     Failure/Error: expect { delete user_path(admin) }.not_to change(User, :count)
-     ActionView::MissingTemplate:
-       Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
-         * "C:/inetpub/wwwroot/Rails/electronic_bulletin_board/app/views"
-     # C:in `find_template'
-     # ./spec/requests/user_pages_spec.rb:85:in `block (5 levels) in <top (required)>'
-     # ./spec/requests/user_pages_spec.rb:85:in `block (4 levels) in <top (required)>'
+  35) StaticPages Sign in page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/static_pages_spec.rb:31:in `block (3 levels) in <top (required)>'
 
-Finished in 1 minute 8.24 seconds
-187 examples, 35 failures
+  36) StaticPages Sign in page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/static_pages_spec.rb:31:in `block (3 levels) in <top (required)>'
+
+  37) StaticPages Sign up page 
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/static_pages_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  38) StaticPages Sign up page 
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/static_pages_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  39) UserPages signup with invalid information should not create a user
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  40) UserPages signup with invalid information after submission 
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  41) UserPages signup with valid information should create a user
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  42) UserPages signup with valid information after saving the user 
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  43) UserPages signup with valid information after saving the user 
+     Failure/Error: before { visit signup_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:11:in `new'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  44) UserPages user listing signed in as administrator 
+     Failure/Error: let!(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:69:in `block (4 levels) in <top (required)>'
+
+  45) UserPages user listing signed in as administrator 
+     Failure/Error: let!(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:69:in `block (4 levels) in <top (required)>'
+
+  46) UserPages user listing signed in as administrator shouldn't allow self to be deleted
+     Failure/Error: let!(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:69:in `block (4 levels) in <top (required)>'
+
+  47) UserPages user listing signed in as administrator should remove a user on deletion
+     Failure/Error: let!(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:69:in `block (4 levels) in <top (required)>'
+
+  48) UserPages user listing signed in as administrator should list all the users
+     Failure/Error: let!(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:69:in `block (4 levels) in <top (required)>'
+
+  49) UserPages profile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:47:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:49:in `block (3 levels) in <top (required)>'
+
+  50) UserPages profile after signing in 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:47:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:49:in `block (3 levels) in <top (required)>'
+
+  51) UserPages profile after signing in 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:47:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:49:in `block (3 levels) in <top (required)>'
+
+  52) UserPages profile after signing in 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/user_pages_spec.rb:47:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:49:in `block (3 levels) in <top (required)>'
+
+  53) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  54) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:15:in `block (2 levels) in <top (required)>'
+
+  55) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:19:in `block (2 levels) in <top (required)>'
+
+  56) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:20:in `block (2 levels) in <top (required)>'
+
+  57) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:10:in `block (2 levels) in <top (required)>'
+
+  58) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:11:in `block (2 levels) in <top (required)>'
+
+  59) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:18:in `block (2 levels) in <top (required)>'
+
+  60) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:17:in `block (2 levels) in <top (required)>'
+
+  61) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:16:in `block (2 levels) in <top (required)>'
+
+  62) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  63) Advertisement 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:8:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:14:in `block (2 levels) in <top (required)>'
+
+  64) Advertisement accessible attributes should not allow access to user_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/advertisement_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  65) Advertisement accessible attributes should not allow access to board_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'boards'>
+     # ./spec/models/advertisement_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  66) Advertisement validating attributes width negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:165:in `block (5 levels) in <top (required)>'
+
+  67) Advertisement validating attributes width larger than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:172:in `block (5 levels) in <top (required)>'
+
+  68) Advertisement validating attributes width equal to or smaller than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:181:in `block (5 levels) in <top (required)>'
+
+  69) Advertisement validating attributes height negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:129:in `block (5 levels) in <top (required)>'
+
+  70) Advertisement validating attributes height larger than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:136:in `block (5 levels) in <top (required)>'
+
+  71) Advertisement validating attributes height equal to or smaller than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:145:in `block (5 levels) in <top (required)>'
+
+  72) Advertisement validating attributes x_location & width combined larger than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:201:in `block (5 levels) in <top (required)>'
+
+  73) Advertisement validating attributes x_location & width combined equal to or smaller than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:211:in `block (5 levels) in <top (required)>'
+
+  74) Advertisement validating attributes image nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:192:in `block (5 levels) in <top (required)>'
+
+  75) Advertisement validating attributes y_location & height combined larger than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:223:in `block (5 levels) in <top (required)>'
+
+  76) Advertisement validating attributes y_location & height combined equal to or smaller than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:233:in `block (5 levels) in <top (required)>'
+
+  77) Advertisement validating attributes x_location text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:51:in `block (5 levels) in <top (required)>'
+
+  78) Advertisement validating attributes x_location blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:45:in `block (5 levels) in <top (required)>'
+
+  79) Advertisement validating attributes x_location negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:57:in `block (5 levels) in <top (required)>'
+
+  80) Advertisement validating attributes x_location larger or equal to board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:64:in `block (5 levels) in <top (required)>'
+
+  81) Advertisement validating attributes x_location smaller than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:73:in `block (5 levels) in <top (required)>'
+
+  82) Advertisement validating attributes x_location nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:39:in `block (5 levels) in <top (required)>'
+
+  83) Advertisement validating attributes y_location negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:93:in `block (5 levels) in <top (required)>'
+
+  84) Advertisement validating attributes y_location larger or equal to board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:100:in `block (5 levels) in <top (required)>'
+
+  85) Advertisement validating attributes y_location smaller than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/advertisement_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/advertisement_spec.rb:109:in `block (5 levels) in <top (required)>'
+
+  86) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:11:in `block (2 levels) in <top (required)>'
+
+  87) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:10:in `block (2 levels) in <top (required)>'
+
+  88) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  89) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  90) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:14:in `block (2 levels) in <top (required)>'
+
+  91) Board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:9:in `block (2 levels) in <top (required)>'
+
+  92) Board accessible attributes should not allow access to user_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/board_spec.rb:18:in `block (3 levels) in <top (required)>'
+
+  93) Board validating attributes name nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:27:in `block (5 levels) in <top (required)>'
+
+  94) Board validating attributes name blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:33:in `block (5 levels) in <top (required)>'
+
+  95) Board validating attributes timezone nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:105:in `block (5 levels) in <top (required)>'
+
+  96) Board validating attributes timezone garbage 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:117:in `block (5 levels) in <top (required)>'
+
+  97) Board validating attributes timezone blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:111:in `block (5 levels) in <top (required)>'
+
+  98) Board validating attributes width text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:85:in `block (5 levels) in <top (required)>'
+
+  99) Board validating attributes width blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:79:in `block (5 levels) in <top (required)>'
+
+  100) Board validating attributes width negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:91:in `block (5 levels) in <top (required)>'
+
+  101) Board validating attributes width zero 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:97:in `block (5 levels) in <top (required)>'
+
+  102) Board validating attributes width nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:73:in `block (5 levels) in <top (required)>'
+
+  103) Board validating attributes height text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:53:in `block (5 levels) in <top (required)>'
+
+  104) Board validating attributes height blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:47:in `block (5 levels) in <top (required)>'
+
+  105) Board validating attributes height negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:59:in `block (5 levels) in <top (required)>'
+
+  106) Board validating attributes height zero 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:65:in `block (5 levels) in <top (required)>'
+
+  107) Board validating attributes height nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/board_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/board_spec.rb:41:in `block (5 levels) in <top (required)>'
+
+  108) BoardPages listing should list all the boards
+     Failure/Error: 30.times { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:9:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:9:in `times'
+     # ./spec/requests/board_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  109) BoardPages create new board with missing information should not create a board
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  110) BoardPages create new board with missing information after submission 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  111) BoardPages create new board with valid information should create a board
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  112) BoardPages create new board with valid information should create fake advertisement
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  113) BoardPages create new board with valid information should create a payment detail
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  114) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  115) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  116) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  117) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  118) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  119) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  120) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  121) BoardPages create new board with valid information after saving the board 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:32:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  122) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  123) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  124) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  125) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  126) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  127) BoardPages display 
+     Failure/Error: let(:board) { FactoryGirl.create(:board) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'boards'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/board_pages_spec.rb:19:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/board_pages_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  128) AuthorizationPages user profile access by different user 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/authorization_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/authorization_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  129) AuthorizationPages board creation visiting board#new before signing in it should behave like non-signed in 
+     Failure/Error: before { visit new_board_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     Shared Example Group: "non-signed in" called from ./spec/requests/authorization_pages_spec.rb:48
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/boards_controller.rb:28:in `signed_in_user'
+     # ./spec/requests/authorization_pages_spec.rb:46:in `block (4 levels) in <top (required)>'
+
+  130) AuthorizationPages board creation visiting board#create before signing in 
+     Failure/Error: before { post boards_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/boards_controller.rb:28:in `signed_in_user'
+     # ./spec/requests/authorization_pages_spec.rb:52:in `block (4 levels) in <top (required)>'
+
+  131) AuthorizationPages user listing before signing in it should behave like non-signed in 
+     Failure/Error: before { visit users_path }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     Shared Example Group: "non-signed in" called from ./spec/requests/authorization_pages_spec.rb:28
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/controllers/users_controller.rb:60:in `signed_in_user'
+     # ./spec/requests/authorization_pages_spec.rb:26:in `block (4 levels) in <top (required)>'
+
+  132) AuthorizationPages user listing signed in as regular user 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/requests/authorization_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authorization_pages_spec.rb:35:in `block (4 levels) in <top (required)>'
+
+  133) AuthenticationPages sign in with missing information it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:35
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  134) AuthenticationPages sign in with missing information it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:35
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  135) AuthenticationPages sign in with missing information it should behave like failed login after visiting another page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:35
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  136) AuthenticationPages sign in with valid information--different email it should behave like successful login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:74
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  137) AuthenticationPages sign in with valid information--different email it should behave like successful login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:74
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  138) AuthenticationPages sign in with valid information--different email it should behave like successful login followed by signout 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:74
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  139) AuthenticationPages sign in with valid information--different email it should behave like successful login followed by signout 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:74
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  140) AuthenticationPages sign in with valid information it should behave like successful login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:64
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  141) AuthenticationPages sign in with valid information it should behave like successful login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:64
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  142) AuthenticationPages sign in with valid information it should behave like successful login followed by signout 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:64
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  143) AuthenticationPages sign in with valid information it should behave like successful login followed by signout 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "successful login" called from ./spec/requests/authentication_pages_spec.rb:64
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  144) AuthenticationPages sign in with invalid information email bad it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:47
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  145) AuthenticationPages sign in with invalid information email bad it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:47
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  146) AuthenticationPages sign in with invalid information email bad it should behave like failed login after visiting another page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:47
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  147) AuthenticationPages sign in with invalid information password bad it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:56
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  148) AuthenticationPages sign in with invalid information password bad it should behave like failed login 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:56
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  149) AuthenticationPages sign in with invalid information password bad it should behave like failed login after visiting another page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       Could not find table 'users'
+     Shared Example Group: "failed login" called from ./spec/requests/authentication_pages_spec.rb:56
+     # ./app/helpers/sessions_helper.rb:16:in `current_user'
+     # ./app/helpers/sessions_helper.rb:8:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__89696410_41527608'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___134150447_40393260'
+     # ./spec/requests/authentication_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  150) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:14:in `block (2 levels) in <top (required)>'
+
+  151) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  152) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:16:in `block (2 levels) in <top (required)>'
+
+  153) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:15:in `block (2 levels) in <top (required)>'
+
+  154) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:17:in `block (2 levels) in <top (required)>'
+
+  155) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:11:in `block (2 levels) in <top (required)>'
+
+  156) Tile 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  157) Tile accessible attributes should not allow access to board_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/tile_spec.rb:21:in `block (3 levels) in <top (required)>'
+
+  158) Tile accessible attributes should not allow access to cost
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'tiles'>
+     # ./spec/models/tile_spec.rb:33:in `block (3 levels) in <top (required)>'
+
+  159) Tile accessible attributes should not allow access to advertisement_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/tile_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  160) Tile validating attributes x_location negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:72:in `block (5 levels) in <top (required)>'
+
+  161) Tile validating attributes x_location text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:66:in `block (5 levels) in <top (required)>'
+
+  162) Tile validating attributes x_location smaller than ad x_location 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:88:in `block (5 levels) in <top (required)>'
+
+  163) Tile validating attributes x_location larger than board width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:79:in `block (5 levels) in <top (required)>'
+
+  164) Tile validating attributes x_location past end of ad width 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:97:in `block (5 levels) in <top (required)>'
+
+  165) Tile validating attributes x_location nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:54:in `block (5 levels) in <top (required)>'
+
+  166) Tile validating attributes x_location blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:60:in `block (5 levels) in <top (required)>'
+
+  167) Tile validating attributes cost nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:160:in `block (5 levels) in <top (required)>'
+
+  168) Tile validating attributes cost negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:178:in `block (5 levels) in <top (required)>'
+
+  169) Tile validating attributes cost text 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:172:in `block (5 levels) in <top (required)>'
+
+  170) Tile validating attributes cost blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:166:in `block (5 levels) in <top (required)>'
+
+  171) Tile validating attributes y_location negative 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:124:in `block (5 levels) in <top (required)>'
+
+  172) Tile validating attributes y_location smaller than ad y_location 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:140:in `block (5 levels) in <top (required)>'
+
+  173) Tile validating attributes y_location larger than board height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:131:in `block (5 levels) in <top (required)>'
+
+  174) Tile validating attributes y_location past end of ad height 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:149:in `block (5 levels) in <top (required)>'
+
+  175) Tile validating attributes y_location nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:108:in `block (5 levels) in <top (required)>'
+
+  176) Tile validating attributes y_location blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/tile_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/tile_spec.rb:114:in `block (5 levels) in <top (required)>'
+
+  177) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:10:in `block (2 levels) in <top (required)>'
+
+  178) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:14:in `block (2 levels) in <top (required)>'
+
+  179) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:19:in `block (2 levels) in <top (required)>'
+
+  180) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:20:in `block (2 levels) in <top (required)>'
+
+  181) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  182) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:9:in `block (2 levels) in <top (required)>'
+
+  183) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:18:in `block (2 levels) in <top (required)>'
+
+  184) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:16:in `block (2 levels) in <top (required)>'
+
+  185) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:15:in `block (2 levels) in <top (required)>'
+
+  186) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  187) User 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  188) User accessible attributes should not allow access to admin
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/user_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  189) User accessible attributes should not allow access to remember_token
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/user_spec.rb:36:in `block (3 levels) in <top (required)>'
+
+  190) User accessible attributes should not allow access to password_digest
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::StatementInvalid: Could not find table 'users'>
+     # ./spec/models/user_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  191) User supports authentication with valid password 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:128:in `block (4 levels) in <top (required)>'
+
+  192) User supports authentication with invalid password 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:134:in `block (4 levels) in <top (required)>'
+
+  193) User supports authentication with invalid password 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:125:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:132:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:135:in `block (4 levels) in <top (required)>'
+
+  194) User administrator 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:6:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:115:in `block (3 levels) in <top (required)>'
+
+  195) User administrator can be turned on explicitly 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:118:in `block (4 levels) in <top (required)>'
+
+  196) User validating attributes name nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:45:in `block (5 levels) in <top (required)>'
+
+  197) User validating attributes name blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:51:in `block (5 levels) in <top (required)>'
+
+  198) User validating attributes remember_token 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:110:in `block (4 levels) in <top (required)>'
+
+  199) User validating attributes password and confirmation nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:82:in `block (5 levels) in <top (required)>'
+
+  200) User validating attributes password and confirmation not matching 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:101:in `block (5 levels) in <top (required)>'
+
+  201) User validating attributes password and confirmation too short 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:94:in `block (5 levels) in <top (required)>'
+
+  202) User validating attributes password and confirmation blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:88:in `block (5 levels) in <top (required)>'
+
+  203) User validating attributes email nil 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:59:in `block (5 levels) in <top (required)>'
+
+  204) User validating attributes email already in use 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:72:in `block (5 levels) in <top (required)>'
+
+  205) User validating attributes email blank 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::StatementInvalid:
+       Could not find table 'users'
+     # C:in `new'
+     # C:in `new'
+     # C:in `object'
+     # ./spec/models/user_spec.rb:4:in `block (2 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:65:in `block (5 levels) in <top (required)>'
+
+Finished in 8.99 seconds
+205 examples, 205 failures
 
 Failed examples:
 
-rspec ./spec/requests/board_pages_spec.rb:27 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:24 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:25 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:26 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:23 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:28 # BoardPages display 
-rspec ./spec/requests/board_pages_spec.rb:60 # BoardPages create new board with valid information should create a board
-rspec ./spec/requests/board_pages_spec.rb:64 # BoardPages create new board with valid information should create a payment detail
-rspec ./spec/requests/board_pages_spec.rb:79 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:75 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:76 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:78 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:81 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:74 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:77 # BoardPages create new board with valid information after saving the board 
-rspec ./spec/requests/board_pages_spec.rb:80 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/models/payment_detail_spec.rb:15 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:13 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:17 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:16 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:18 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:10 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:12 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:11 # PaymentDetail 
+rspec ./spec/models/payment_detail_spec.rb:21 # PaymentDetail accessible attributes should not allow access to payable_id
+rspec ./spec/models/payment_detail_spec.rb:33 # PaymentDetail accessible attributes should not allow access to user_id
+rspec ./spec/models/payment_detail_spec.rb:27 # PaymentDetail accessible attributes should not allow access to payable_type
+rspec ./spec/models/payment_detail_spec.rb:45 # PaymentDetail validating attributes amount nil 
+rspec ./spec/models/payment_detail_spec.rb:57 # PaymentDetail validating attributes amount text 
+rspec ./spec/models/payment_detail_spec.rb:51 # PaymentDetail validating attributes amount blank 
 rspec ./spec/requests/advertisement_pages_spec.rb:17 # AdvertisementPages create new advertisement with missing information should not create an advertisment
 rspec ./spec/requests/advertisement_pages_spec.rb:24 # AdvertisementPages create new advertisement with missing information after submission 
 rspec ./spec/requests/advertisement_pages_spec.rb:37 # AdvertisementPages create new advertisement with valid information should create an advertisment
+rspec ./spec/requests/advertisement_pages_spec.rb:45 # AdvertisementPages create new advertisement with valid information should create width x height tiles
 rspec ./spec/requests/advertisement_pages_spec.rb:41 # AdvertisementPages create new advertisement with valid information should create a payment detail
-rspec ./spec/requests/advertisement_pages_spec.rb:52 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:50 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:56 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:58 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:54 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:55 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
 rspec ./spec/requests/advertisement_pages_spec.rb:59 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:66 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:61 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:65 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:64 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
 rspec ./spec/requests/advertisement_pages_spec.rb:57 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:53 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/advertisement_pages_spec.rb:51 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
-rspec ./spec/requests/authorization_pages_spec.rb:20 # AuthorizationPages user profile access by different user 
-rspec ./spec/requests/user_pages_spec.rb:62 # UserPages profile after signing in 
-rspec ./spec/requests/user_pages_spec.rb:87 # UserPages user listing signed in as administrator should remove a user on deletion
+rspec ./spec/requests/advertisement_pages_spec.rb:63 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:62 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:58 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:67 # AdvertisementPages create new advertisement with valid information after saving the advertisment 
+rspec ./spec/requests/advertisement_pages_spec.rb:79 # AdvertisementPages having an advertisement age should reduce in cost by half 
+rspec ./spec/requests/advertisement_pages_spec.rb:85 # AdvertisementPages having an advertisement age should never cost less than $0.01 
+rspec ./spec/requests/static_pages_spec.rb:9 # StaticPages Home page 
+rspec ./spec/requests/static_pages_spec.rb:12 # StaticPages Home page should not be accessible via some other route
+rspec ./spec/requests/static_pages_spec.rb:10 # StaticPages Home page 
+rspec ./spec/requests/static_pages_spec.rb:33 # StaticPages Sign in page 
+rspec ./spec/requests/static_pages_spec.rb:34 # StaticPages Sign in page 
+rspec ./spec/requests/static_pages_spec.rb:26 # StaticPages Sign up page 
+rspec ./spec/requests/static_pages_spec.rb:27 # StaticPages Sign up page 
+rspec ./spec/requests/user_pages_spec.rb:12 # UserPages signup with invalid information should not create a user
+rspec ./spec/requests/user_pages_spec.rb:19 # UserPages signup with invalid information after submission 
+rspec ./spec/requests/user_pages_spec.rb:31 # UserPages signup with valid information should create a user
+rspec ./spec/requests/user_pages_spec.rb:40 # UserPages signup with valid information after saving the user 
+rspec ./spec/requests/user_pages_spec.rb:41 # UserPages signup with valid information after saving the user 
 rspec ./spec/requests/user_pages_spec.rb:82 # UserPages user listing signed in as administrator 
+rspec ./spec/requests/user_pages_spec.rb:81 # UserPages user listing signed in as administrator 
 rspec ./spec/requests/user_pages_spec.rb:84 # UserPages user listing signed in as administrator shouldn't allow self to be deleted
+rspec ./spec/requests/user_pages_spec.rb:87 # UserPages user listing signed in as administrator should remove a user on deletion
+rspec ./spec/requests/user_pages_spec.rb:77 # UserPages user listing signed in as administrator should list all the users
+rspec ./spec/requests/user_pages_spec.rb:51 # UserPages profile 
+rspec ./spec/requests/user_pages_spec.rb:60 # UserPages profile after signing in 
+rspec ./spec/requests/user_pages_spec.rb:62 # UserPages profile after signing in 
+rspec ./spec/requests/user_pages_spec.rb:61 # UserPages profile after signing in 
+rspec ./spec/models/advertisement_spec.rb:12 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:15 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:19 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:20 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:10 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:11 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:18 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:17 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:16 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:13 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:14 # Advertisement 
+rspec ./spec/models/advertisement_spec.rb:23 # Advertisement accessible attributes should not allow access to user_id
+rspec ./spec/models/advertisement_spec.rb:29 # Advertisement accessible attributes should not allow access to board_id
+rspec ./spec/models/advertisement_spec.rb:167 # Advertisement validating attributes width negative 
+rspec ./spec/models/advertisement_spec.rb:176 # Advertisement validating attributes width larger than board width 
+rspec ./spec/models/advertisement_spec.rb:186 # Advertisement validating attributes width equal to or smaller than board width 
+rspec ./spec/models/advertisement_spec.rb:131 # Advertisement validating attributes height negative 
+rspec ./spec/models/advertisement_spec.rb:140 # Advertisement validating attributes height larger than board height 
+rspec ./spec/models/advertisement_spec.rb:150 # Advertisement validating attributes height equal to or smaller than board height 
+rspec ./spec/models/advertisement_spec.rb:206 # Advertisement validating attributes x_location & width combined larger than board width 
+rspec ./spec/models/advertisement_spec.rb:216 # Advertisement validating attributes x_location & width combined equal to or smaller than board width 
+rspec ./spec/models/advertisement_spec.rb:194 # Advertisement validating attributes image nil 
+rspec ./spec/models/advertisement_spec.rb:228 # Advertisement validating attributes y_location & height combined larger than board height 
+rspec ./spec/models/advertisement_spec.rb:238 # Advertisement validating attributes y_location & height combined equal to or smaller than board height 
+rspec ./spec/models/advertisement_spec.rb:53 # Advertisement validating attributes x_location text 
+rspec ./spec/models/advertisement_spec.rb:47 # Advertisement validating attributes x_location blank 
+rspec ./spec/models/advertisement_spec.rb:59 # Advertisement validating attributes x_location negative 
+rspec ./spec/models/advertisement_spec.rb:68 # Advertisement validating attributes x_location larger or equal to board width 
+rspec ./spec/models/advertisement_spec.rb:78 # Advertisement validating attributes x_location smaller than board width 
+rspec ./spec/models/advertisement_spec.rb:41 # Advertisement validating attributes x_location nil 
+rspec ./spec/models/advertisement_spec.rb:95 # Advertisement validating attributes y_location negative 
+rspec ./spec/models/advertisement_spec.rb:104 # Advertisement validating attributes y_location larger or equal to board height 
+rspec ./spec/models/advertisement_spec.rb:114 # Advertisement validating attributes y_location smaller than board height 
+rspec ./spec/models/board_spec.rb:11 # Board 
+rspec ./spec/models/board_spec.rb:10 # Board 
+rspec ./spec/models/board_spec.rb:12 # Board 
+rspec ./spec/models/board_spec.rb:13 # Board 
+rspec ./spec/models/board_spec.rb:14 # Board 
+rspec ./spec/models/board_spec.rb:9 # Board 
+rspec ./spec/models/board_spec.rb:17 # Board accessible attributes should not allow access to user_id
+rspec ./spec/models/board_spec.rb:29 # Board validating attributes name nil 
+rspec ./spec/models/board_spec.rb:35 # Board validating attributes name blank 
+rspec ./spec/models/board_spec.rb:107 # Board validating attributes timezone nil 
+rspec ./spec/models/board_spec.rb:119 # Board validating attributes timezone garbage 
+rspec ./spec/models/board_spec.rb:113 # Board validating attributes timezone blank 
+rspec ./spec/models/board_spec.rb:87 # Board validating attributes width text 
+rspec ./spec/models/board_spec.rb:81 # Board validating attributes width blank 
+rspec ./spec/models/board_spec.rb:93 # Board validating attributes width negative 
+rspec ./spec/models/board_spec.rb:99 # Board validating attributes width zero 
+rspec ./spec/models/board_spec.rb:75 # Board validating attributes width nil 
+rspec ./spec/models/board_spec.rb:55 # Board validating attributes height text 
+rspec ./spec/models/board_spec.rb:49 # Board validating attributes height blank 
+rspec ./spec/models/board_spec.rb:61 # Board validating attributes height negative 
+rspec ./spec/models/board_spec.rb:67 # Board validating attributes height zero 
+rspec ./spec/models/board_spec.rb:43 # Board validating attributes height nil 
+rspec ./spec/requests/board_pages_spec.rb:13 # BoardPages listing should list all the boards
+rspec ./spec/requests/board_pages_spec.rb:41 # BoardPages create new board with missing information should not create a board
+rspec ./spec/requests/board_pages_spec.rb:48 # BoardPages create new board with missing information after submission 
+rspec ./spec/requests/board_pages_spec.rb:60 # BoardPages create new board with valid information should create a board
+rspec ./spec/requests/board_pages_spec.rb:68 # BoardPages create new board with valid information should create fake advertisement
+rspec ./spec/requests/board_pages_spec.rb:64 # BoardPages create new board with valid information should create a payment detail
+rspec ./spec/requests/board_pages_spec.rb:82 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:81 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:84 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:83 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:85 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:78 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:80 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:79 # BoardPages create new board with valid information after saving the board 
+rspec ./spec/requests/board_pages_spec.rb:25 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:24 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:26 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:27 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:28 # BoardPages display 
+rspec ./spec/requests/board_pages_spec.rb:23 # BoardPages display 
+rspec ./spec/requests/authorization_pages_spec.rb:20 # AuthorizationPages user profile access by different user 
+rspec ./spec/requests/authorization_pages_spec.rb:7 # AuthorizationPages board creation visiting board#new before signing in it should behave like non-signed in 
+rspec ./spec/requests/authorization_pages_spec.rb:54 # AuthorizationPages board creation visiting board#create before signing in 
+rspec ./spec/requests/authorization_pages_spec.rb:7 # AuthorizationPages user listing before signing in it should behave like non-signed in 
+rspec ./spec/requests/authorization_pages_spec.rb:39 # AuthorizationPages user listing signed in as regular user 
+rspec ./spec/requests/authentication_pages_spec.rb:7 # AuthenticationPages sign in with missing information it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:8 # AuthenticationPages sign in with missing information it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:13 # AuthenticationPages sign in with missing information it should behave like failed login after visiting another page 
+rspec ./spec/requests/authentication_pages_spec.rb:18 # AuthenticationPages sign in with valid information--different email it should behave like successful login 
+rspec ./spec/requests/authentication_pages_spec.rb:19 # AuthenticationPages sign in with valid information--different email it should behave like successful login 
+rspec ./spec/requests/authentication_pages_spec.rb:24 # AuthenticationPages sign in with valid information--different email it should behave like successful login followed by signout 
+rspec ./spec/requests/authentication_pages_spec.rb:25 # AuthenticationPages sign in with valid information--different email it should behave like successful login followed by signout 
+rspec ./spec/requests/authentication_pages_spec.rb:18 # AuthenticationPages sign in with valid information it should behave like successful login 
+rspec ./spec/requests/authentication_pages_spec.rb:19 # AuthenticationPages sign in with valid information it should behave like successful login 
+rspec ./spec/requests/authentication_pages_spec.rb:24 # AuthenticationPages sign in with valid information it should behave like successful login followed by signout 
+rspec ./spec/requests/authentication_pages_spec.rb:25 # AuthenticationPages sign in with valid information it should behave like successful login followed by signout 
+rspec ./spec/requests/authentication_pages_spec.rb:7 # AuthenticationPages sign in with invalid information email bad it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:8 # AuthenticationPages sign in with invalid information email bad it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:13 # AuthenticationPages sign in with invalid information email bad it should behave like failed login after visiting another page 
+rspec ./spec/requests/authentication_pages_spec.rb:7 # AuthenticationPages sign in with invalid information password bad it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:8 # AuthenticationPages sign in with invalid information password bad it should behave like failed login 
+rspec ./spec/requests/authentication_pages_spec.rb:13 # AuthenticationPages sign in with invalid information password bad it should behave like failed login after visiting another page 
+rspec ./spec/models/tile_spec.rb:14 # Tile 
+rspec ./spec/models/tile_spec.rb:13 # Tile 
+rspec ./spec/models/tile_spec.rb:16 # Tile 
+rspec ./spec/models/tile_spec.rb:15 # Tile 
+rspec ./spec/models/tile_spec.rb:17 # Tile 
+rspec ./spec/models/tile_spec.rb:11 # Tile 
+rspec ./spec/models/tile_spec.rb:12 # Tile 
+rspec ./spec/models/tile_spec.rb:20 # Tile accessible attributes should not allow access to board_id
+rspec ./spec/models/tile_spec.rb:32 # Tile accessible attributes should not allow access to cost
+rspec ./spec/models/tile_spec.rb:26 # Tile accessible attributes should not allow access to advertisement_id
+rspec ./spec/models/tile_spec.rb:74 # Tile validating attributes x_location negative 
+rspec ./spec/models/tile_spec.rb:68 # Tile validating attributes x_location text 
+rspec ./spec/models/tile_spec.rb:92 # Tile validating attributes x_location smaller than ad x_location 
+rspec ./spec/models/tile_spec.rb:83 # Tile validating attributes x_location larger than board width 
+rspec ./spec/models/tile_spec.rb:102 # Tile validating attributes x_location past end of ad width 
+rspec ./spec/models/tile_spec.rb:56 # Tile validating attributes x_location nil 
+rspec ./spec/models/tile_spec.rb:62 # Tile validating attributes x_location blank 
+rspec ./spec/models/tile_spec.rb:162 # Tile validating attributes cost nil 
+rspec ./spec/models/tile_spec.rb:180 # Tile validating attributes cost negative 
+rspec ./spec/models/tile_spec.rb:174 # Tile validating attributes cost text 
+rspec ./spec/models/tile_spec.rb:168 # Tile validating attributes cost blank 
+rspec ./spec/models/tile_spec.rb:126 # Tile validating attributes y_location negative 
+rspec ./spec/models/tile_spec.rb:144 # Tile validating attributes y_location smaller than ad y_location 
+rspec ./spec/models/tile_spec.rb:135 # Tile validating attributes y_location larger than board height 
+rspec ./spec/models/tile_spec.rb:154 # Tile validating attributes y_location past end of ad height 
+rspec ./spec/models/tile_spec.rb:110 # Tile validating attributes y_location nil 
+rspec ./spec/models/tile_spec.rb:116 # Tile validating attributes y_location blank 
+rspec ./spec/models/user_spec.rb:10 # User 
+rspec ./spec/models/user_spec.rb:14 # User 
+rspec ./spec/models/user_spec.rb:19 # User 
+rspec ./spec/models/user_spec.rb:20 # User 
+rspec ./spec/models/user_spec.rb:8 # User 
+rspec ./spec/models/user_spec.rb:9 # User 
+rspec ./spec/models/user_spec.rb:18 # User 
+rspec ./spec/models/user_spec.rb:16 # User 
+rspec ./spec/models/user_spec.rb:15 # User 
+rspec ./spec/models/user_spec.rb:12 # User 
+rspec ./spec/models/user_spec.rb:13 # User 
+rspec ./spec/models/user_spec.rb:23 # User accessible attributes should not allow access to admin
+rspec ./spec/models/user_spec.rb:35 # User accessible attributes should not allow access to remember_token
+rspec ./spec/models/user_spec.rb:29 # User accessible attributes should not allow access to password_digest
+rspec ./spec/models/user_spec.rb:128 # User supports authentication with valid password 
+rspec ./spec/models/user_spec.rb:134 # User supports authentication with invalid password 
+rspec ./spec/models/user_spec.rb:135 # User supports authentication with invalid password 
+rspec ./spec/models/user_spec.rb:115 # User administrator 
+rspec ./spec/models/user_spec.rb:120 # User administrator can be turned on explicitly 
+rspec ./spec/models/user_spec.rb:47 # User validating attributes name nil 
+rspec ./spec/models/user_spec.rb:53 # User validating attributes name blank 
+rspec ./spec/models/user_spec.rb:110 # User validating attributes remember_token 
+rspec ./spec/models/user_spec.rb:84 # User validating attributes password and confirmation nil 
+rspec ./spec/models/user_spec.rb:105 # User validating attributes password and confirmation not matching 
+rspec ./spec/models/user_spec.rb:96 # User validating attributes password and confirmation too short 
+rspec ./spec/models/user_spec.rb:90 # User validating attributes password and confirmation blank 
+rspec ./spec/models/user_spec.rb:61 # User validating attributes email nil 
+rspec ./spec/models/user_spec.rb:76 # User validating attributes email already in use 
+rspec ./spec/models/user_spec.rb:67 # User validating attributes email blank 
 
-Randomized with seed 62617
+Randomized with seed 40732
 

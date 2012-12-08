@@ -8,9 +8,9 @@ class Tile < ActiveRecord::Base
 	
 	validates :x_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 	validates :y_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
-	#validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0 }
+	validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0 }
 	
-	#validate :size_constraints
+	validate :size_constraints
 	
 	def age
 	
@@ -27,7 +27,7 @@ class Tile < ActiveRecord::Base
 	
 	private
 	def size_constraints
-		if x_location.is_a?(Integer) && y_location.is_a?(Integer)
+		if x_location.is_a?(Integer) && y_location.is_a?(Integer) && !advertisement.nil?
 			if x_location >= board.width
 				errors.add(:x_location, "can't be larger than board width")
 			end

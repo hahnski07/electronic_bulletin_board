@@ -46,18 +46,18 @@ function UpdateAdvertisement()
 		<%= render partial: 'shared/error_messages', object: advertisement.object %>
 		
 		<%= advertisement.label :image %>
-		<%= file_field_tag :image_contents %>
+		<%= file_field_tag :advertisement_image_contents %>
 		
-		<%= advertisement.label :x_location %>
+		<%= advertisement.label :x_location, "X Location" %>
 		<%= advertisement.text_field :x_location %>
 		
-		<%= advertisement.label :y_location %>
+		<%= advertisement.label :y_location, "Y Location" %>
 		<%= advertisement.text_field :y_location %>
 		
-		<%= advertisement.label :width %>
-		<%= advertisement.text_field :width %>
+		<%= advertisement.label :width, "Width" %>
+		<%= advertisement.text_field :width  %>
 		
-		<%= advertisement.label :height %>
+		<%= advertisement.label :height, "Height" %>
 		<%= advertisement.text_field :height %>
 		
 		<%= advertisement.submit "Create advertisement", class: "btn btn-medium btn-primary" %>

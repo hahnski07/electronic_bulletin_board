@@ -12,10 +12,11 @@ class Advertisement < ActiveRecord::Base
 	validates :y_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 	validates :width, presence: true, numericality: { only_integer: true, greater_than: 0}
 	validates :height, presence: true, numericality: { only_integer: true, greater_than: 0}
+	validates :image, presence: true
 	
 	validates :board, presence: true
 	
-	#validate :size_constraints
+	validate :size_constraints
 	
 	def update_tiles
 		for y in (y_location)..(height - 1 + y_location)
@@ -23,8 +24,7 @@ class Advertisement < ActiveRecord::Base
 				@tile = Tile.find(:first, joins: {advertisement: :board}, conditions: "tiles.x_location = #{x} AND tiles.y_location = #{y} AND boards.id = #{board.id}", readonly: false)
 				#@tile = Tile.joins(advertisement: :board, readonly: false).where("tiles.x_location = #{x} AND tiles.y_location = #{y} AND boards.id = #{board.id}").first
 				if @tile.nil?
-					@tile = Tile.create(x_location: x, y_location: y)
-					@tile.advertisement = self
+					@tile = self.tiles.build(x_location: x, y_location: y)
 					@tile.save()
 				else
 					@tile.advertisement_id = self.id
@@ -35,15 +35,16 @@ class Advertisement < ActiveRecord::Base
 	end
 	
 	def image_contents=(object)
-		self.image = object.read()
+		if !object.nil?
+			self.image = object.read()
+		end
 	end
 	
 	def charge
 		cost = -Tile.sum(:cost, conditions: ['advertisement_id = ?', self.id])
 	
 		if !cost.nil? && cost < 0.0
-			payment_detail = PaymentDetail.create(amount: cost)
-			payment_detail.user = self.user
+			payment_detail = self.user.payment_details.build(amount: cost)
 			payment_detail.payable = self
 			payment_detail.save()
 		end

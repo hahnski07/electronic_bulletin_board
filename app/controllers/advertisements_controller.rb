@@ -8,7 +8,7 @@ class AdvertisementsController < ApplicationController
 		@board = Board.find(params[:board_id])
 		@advertisement = @board.advertisements.build(params[:advertisement])
 		@advertisement.user = current_user
-		@advertisement.image_contents = params[:image_contents]
+		@advertisement.image_contents = params[:advertisement_image_contents]
 		if @advertisement.save
 			flash[:success] = "Advertisement created successfully!"
 			redirect_to @board

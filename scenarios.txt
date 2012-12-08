@@ -1,0 +1,362 @@
+F.FFF....FFF.FF....F.FFFFF..........FFFFFF.......FF.F......FFFF.......FF.F...F.FFFFF.........F.F....F....F...FFF...F.F.......FFFF......
+
+Failures:
+
+  1) Scenarios two advertisements fully overlapping 
+     Failure/Error: specify { page.all('.ad_container img').count.should == 2 }
+       expected: 2
+            got: 3 (using ==)
+     # ./spec/requests/scenarios_spec.rb:89:in `block (3 levels) in <top (required)>'
+
+  2) Scenarios two advertisements fully overlapping 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:97:in `block (3 levels) in <top (required)>'
+
+  3) Scenarios two advertisements fully overlapping 
+     Failure/Error: specify { ad2.tiles.count.should == 2 * 2 }
+       expected: 4
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:96:in `block (3 levels) in <top (required)>'
+
+  4) Scenarios two advertisements fully overlapping 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 2 * 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:98:in `block (3 levels) in <top (required)>'
+
+  5) Scenarios one advertisement covered by another covered by another 
+     Failure/Error: specify { ad3.payment_details.last.amount.should == 4 * 5 * 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:371:in `block (3 levels) in <top (required)>'
+
+  6) Scenarios one advertisement covered by another covered by another 
+     Failure/Error: specify { page.all('.ad_container img').count.should == 2 }
+       expected: 2
+            got: 4 (using ==)
+     # ./spec/requests/scenarios_spec.rb:360:in `block (3 levels) in <top (required)>'
+
+  7) Scenarios one advertisement covered by another covered by another 
+     Failure/Error: specify { ad3.tiles.count.should == 4 * 5 }
+       expected: 20
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:367:in `block (3 levels) in <top (required)>'
+
+  8) Scenarios one advertisement covered by another covered by another 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 4 * 5 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:369:in `block (3 levels) in <top (required)>'
+
+  9) Scenarios one advertisement covered by another covered by another 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 4 * 5 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:370:in `block (3 levels) in <top (required)>'
+
+  10) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad3.payment_details.last.amount.should == 2 * 2 + 1 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:334:in `block (3 levels) in <top (required)>'
+
+  11) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad3.tiles.count.should == 2 * 2 }
+       expected: 4
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:330:in `block (3 levels) in <top (required)>'
+
+  12) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad1.tiles.count.should == 4 * 4 - 2 * 2 - 1 }
+       expected: 11
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:328:in `block (3 levels) in <top (required)>'
+
+  13) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 4 * 4 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:332:in `block (3 levels) in <top (required)>'
+
+  14) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 4 * 4 + 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:333:in `block (3 levels) in <top (required)>'
+
+  15) Scenarios one advertisment overlapped by two other ads 
+     Failure/Error: specify { ad2.tiles.count.should == 4 * 4 }
+       expected: 16
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:329:in `block (3 levels) in <top (required)>'
+
+  16) Scenarios first advertisement 
+     Failure/Error: specify { ad1.tiles.count.should == 3 * 3 }
+       expected: 9
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:117:in `block (3 levels) in <top (required)>'
+
+  17) Scenarios first advertisement after ad expires 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 3 * 3 * 0.01 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:171:in `block (4 levels) in <top (required)>'
+
+  18) Scenarios first advertisement after ad expires 
+     Failure/Error: specify { ad1.payment_details.count.should == 8 }
+       expected: 8
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:172:in `block (4 levels) in <top (required)>'
+
+  19) Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+     Failure/Error: specify { ad2.tiles.count.should == 4 * 6 }
+       expected: 24
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:193:in `block (5 levels) in <top (required)>'
+
+  20) Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 4 * 6 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:194:in `block (5 levels) in <top (required)>'
+
+  21) Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+     Failure/Error: specify { ad1.tiles.count.should == 3 * 3 - 3 }
+       expected: 6
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:192:in `block (5 levels) in <top (required)>'
+
+  22) Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+     Failure/Error: specify { ad2.tiles.count.should == 3 * 3 }
+       expected: 9
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:213:in `block (5 levels) in <top (required)>'
+
+  23) Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 3 * 3 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:214:in `block (5 levels) in <top (required)>'
+
+  24) Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+     Failure/Error: specify { page.all('.ad_container img').count.should == 2 }
+       expected: 2
+            got: 3 (using ==)
+     # ./spec/requests/scenarios_spec.rb:207:in `block (5 levels) in <top (required)>'
+
+  25) Scenarios first advertisement one day later 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 3 * 3 / 2.0 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:122:in `block (4 levels) in <top (required)>'
+
+  26) Scenarios first advertisement one day later second advertisement (partial overlap) 
+     Failure/Error: specify { ad2.tiles.count.should == 4 * 6 }
+       expected: 24
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:143:in `block (5 levels) in <top (required)>'
+
+  27) Scenarios first advertisement one day later second advertisement (partial overlap) 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 4 * 6 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:144:in `block (5 levels) in <top (required)>'
+
+  28) Scenarios first advertisement one day later second advertisement (partial overlap) 
+     Failure/Error: specify { ad1.tiles.count.should == 3 * 3 - 3 }
+       expected: 6
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:142:in `block (5 levels) in <top (required)>'
+
+  29) Scenarios first advertisement one day later second advertisement (complete overlap) 
+     Failure/Error: specify { ad2.tiles.count.should == 3 * 3 }
+       expected: 9
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:163:in `block (5 levels) in <top (required)>'
+
+  30) Scenarios first advertisement one day later second advertisement (complete overlap) 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 3 * 3 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:164:in `block (5 levels) in <top (required)>'
+
+  31) Scenarios first advertisement one day later second advertisement (complete overlap) 
+     Failure/Error: specify { page.all('.ad_container img').count.should == 2 }
+       expected: 2
+            got: 3 (using ==)
+     # ./spec/requests/scenarios_spec.rb:157:in `block (5 levels) in <top (required)>'
+
+  32) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad3.payment_details.last.amount.should == 4 * 4 + 2 * 2 + 1 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:288:in `block (3 levels) in <top (required)>'
+
+  33) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad3.tiles.count.should == 4 * 4 }
+       expected: 16
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:284:in `block (3 levels) in <top (required)>'
+
+  34) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad1.tiles.count.should == 4 * 4 - 2 * 2 }
+       expected: 12
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:282:in `block (3 levels) in <top (required)>'
+
+  35) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 4 * 4 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:286:in `block (3 levels) in <top (required)>'
+
+  36) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:287:in `block (3 levels) in <top (required)>'
+
+  37) Scenarios one advertisment overlapping two other ads 
+     Failure/Error: specify { ad2.tiles.count.should == 2 * 2 - 1 }
+       expected: 3
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:283:in `block (3 levels) in <top (required)>'
+
+  38) Scenarios single tile advertisement 
+     Failure/Error: specify { ad.payment_details.last.amount.should == 1 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:382:in `block (3 levels) in <top (required)>'
+
+  39) Scenarios single tile advertisement 
+     Failure/Error: specify { ad.tiles.count.should == 1 }
+       expected: 1
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:381:in `block (3 levels) in <top (required)>'
+
+  40) Scenarios advertisements on different boards board1 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == ad1.width * ad1.height }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:233:in `block (4 levels) in <top (required)>'
+
+  41) Scenarios advertisements on different boards board2 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == ad2.width * ad2.height }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:244:in `block (4 levels) in <top (required)>'
+
+  42) Scenarios full board advertisement 
+     Failure/Error: specify { ad.payment_details.last.amount.should == board.width * board.height }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:399:in `block (3 levels) in <top (required)>'
+
+  43) Scenarios full board advertisement 
+     Failure/Error: specify { page.all('.ad_container img').count.should == 1 }
+       expected: 1
+            got: 2 (using ==)
+     # ./spec/requests/scenarios_spec.rb:396:in `block (3 levels) in <top (required)>'
+
+  44) Scenarios full board advertisement 
+     Failure/Error: specify { ad.tiles.count.should == board.width * board.height }
+       expected: 150
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:398:in `block (3 levels) in <top (required)>'
+
+  45) Scenarios two advertisements side-by-side 
+     Failure/Error: specify { ad2.tiles.count.should == 3 * 3 }
+       expected: 9
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:38:in `block (3 levels) in <top (required)>'
+
+  46) Scenarios two advertisements side-by-side 
+     Failure/Error: specify { ad1.tiles.count.should == 2 * 2 }
+       expected: 4
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:37:in `block (3 levels) in <top (required)>'
+
+  47) Scenarios two advertisements partially overlapping 
+     Failure/Error: specify { ad1.tiles.count.should == 4 * 4 - 2 * 2 }
+       expected: 12
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:66:in `block (3 levels) in <top (required)>'
+
+  48) Scenarios two advertisements partially overlapping 
+     Failure/Error: specify { ad1.payment_details.last.amount.should == 4 * 4 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:68:in `block (3 levels) in <top (required)>'
+
+  49) Scenarios two advertisements partially overlapping 
+     Failure/Error: specify { ad2.payment_details.last.amount.should == 4 * 4 + 2 * 2 }
+     NoMethodError:
+       undefined method `amount' for nil:NilClass
+     # ./spec/requests/scenarios_spec.rb:69:in `block (3 levels) in <top (required)>'
+
+  50) Scenarios two advertisements partially overlapping 
+     Failure/Error: specify { ad2.tiles.count.should == 4 * 4 }
+       expected: 16
+            got: 0 (using ==)
+     # ./spec/requests/scenarios_spec.rb:67:in `block (3 levels) in <top (required)>'
+
+Finished in 10 minutes 22.14 seconds
+135 examples, 50 failures
+
+Failed examples:
+
+rspec ./spec/requests/scenarios_spec.rb:89 # Scenarios two advertisements fully overlapping 
+rspec ./spec/requests/scenarios_spec.rb:97 # Scenarios two advertisements fully overlapping 
+rspec ./spec/requests/scenarios_spec.rb:96 # Scenarios two advertisements fully overlapping 
+rspec ./spec/requests/scenarios_spec.rb:98 # Scenarios two advertisements fully overlapping 
+rspec ./spec/requests/scenarios_spec.rb:371 # Scenarios one advertisement covered by another covered by another 
+rspec ./spec/requests/scenarios_spec.rb:360 # Scenarios one advertisement covered by another covered by another 
+rspec ./spec/requests/scenarios_spec.rb:367 # Scenarios one advertisement covered by another covered by another 
+rspec ./spec/requests/scenarios_spec.rb:369 # Scenarios one advertisement covered by another covered by another 
+rspec ./spec/requests/scenarios_spec.rb:370 # Scenarios one advertisement covered by another covered by another 
+rspec ./spec/requests/scenarios_spec.rb:334 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:330 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:328 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:332 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:333 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:329 # Scenarios one advertisment overlapped by two other ads 
+rspec ./spec/requests/scenarios_spec.rb:117 # Scenarios first advertisement 
+rspec ./spec/requests/scenarios_spec.rb:171 # Scenarios first advertisement after ad expires 
+rspec ./spec/requests/scenarios_spec.rb:172 # Scenarios first advertisement after ad expires 
+rspec ./spec/requests/scenarios_spec.rb:193 # Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:194 # Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:192 # Scenarios first advertisement after ad expires second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:213 # Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:214 # Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:207 # Scenarios first advertisement after ad expires second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:122 # Scenarios first advertisement one day later 
+rspec ./spec/requests/scenarios_spec.rb:143 # Scenarios first advertisement one day later second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:144 # Scenarios first advertisement one day later second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:142 # Scenarios first advertisement one day later second advertisement (partial overlap) 
+rspec ./spec/requests/scenarios_spec.rb:163 # Scenarios first advertisement one day later second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:164 # Scenarios first advertisement one day later second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:157 # Scenarios first advertisement one day later second advertisement (complete overlap) 
+rspec ./spec/requests/scenarios_spec.rb:288 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:284 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:282 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:286 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:287 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:283 # Scenarios one advertisment overlapping two other ads 
+rspec ./spec/requests/scenarios_spec.rb:382 # Scenarios single tile advertisement 
+rspec ./spec/requests/scenarios_spec.rb:381 # Scenarios single tile advertisement 
+rspec ./spec/requests/scenarios_spec.rb:233 # Scenarios advertisements on different boards board1 
+rspec ./spec/requests/scenarios_spec.rb:244 # Scenarios advertisements on different boards board2 
+rspec ./spec/requests/scenarios_spec.rb:399 # Scenarios full board advertisement 
+rspec ./spec/requests/scenarios_spec.rb:396 # Scenarios full board advertisement 
+rspec ./spec/requests/scenarios_spec.rb:398 # Scenarios full board advertisement 
+rspec ./spec/requests/scenarios_spec.rb:38 # Scenarios two advertisements side-by-side 
+rspec ./spec/requests/scenarios_spec.rb:37 # Scenarios two advertisements side-by-side 
+rspec ./spec/requests/scenarios_spec.rb:66 # Scenarios two advertisements partially overlapping 
+rspec ./spec/requests/scenarios_spec.rb:68 # Scenarios two advertisements partially overlapping 
+rspec ./spec/requests/scenarios_spec.rb:69 # Scenarios two advertisements partially overlapping 
+rspec ./spec/requests/scenarios_spec.rb:67 # Scenarios two advertisements partially overlapping 
+
+Randomized with seed 8427
+

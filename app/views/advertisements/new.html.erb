@@ -68,7 +68,9 @@ function UpdateAdvertisement()
 <div id="advertisement_cost_estimate" style="color: #FF0000; font-weight: bold;"></div>
 <div id="board_display" style=" width: <%= @board.width * 64 %>px; height: <%= @board.height * 64 %>px;">
 <% @board.advertisements.each do |advertisement| %>
+	<% if !advertisement.x_location.nil? && !advertisement.y_location.nil? && !advertisement.width.nil? && !advertisement.height.nil? %>
 	<div class="advertisement_display" style="left: <%= advertisement.x_location * 64 %>px; top: <%= advertisement.y_location * 64 %>px; width: <%= advertisement.width * 64 %>px; height: <%= advertisement.height * 64 %>px; background: #3F647F url('/images/<%= advertisement.id %>');"></div>
+	<% end %>
 <% end %>
 	<div id="advertisement_preview" style="position: absolute; box-shadow: 0px 0px 3px #FF0000; background: #FFFFFF;"></div>
 </div>

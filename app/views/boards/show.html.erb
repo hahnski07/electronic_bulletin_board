@@ -3,13 +3,15 @@
 <div class="row">
 	<div class="span6 offset">
 		<h1><%= @board.name %></h1>
-		<div><%= @board.timezone %></div>
+		<div>Timezone: <%= @board.timezone %></div>
 		<div><%= "Created by: #{@board.user.name}" %></div>
+		<div style="display: none;"><%= "User #{@board.user.id - 1}" %></div>
 		<div><%= "Width: #{pluralize(@board.width, 'tile')}" %></div>
 		<div><%= "Height: #{pluralize(@board.height, 'tile')}" %></div>
-		<div><%= link_to "Create advertisement", new_board_advertisement_path(@board), query: @board.id, class: "btn btn-medium btn-primary" %></div>
+		<div style="margin-top: 5px;"><%= button_to "Create advertisement", new_board_advertisement_path(@board), method: "get", class: "btn btn-medium btn-primary" %></div>
+		<input type="button" value="Create advertisement" style="display: none;" />
 		<div id="board" class="ad_container" style="position: relative; margin-top: 10px; box-shadow: 0px 0px 3px #000000; width: <%= Integer(@board.width) * 64 %>px; height: <%= Integer(@board.height) * 64 %>px;">
-			<% @board.advertisements.each do |advertisement| %>
+			<% Advertisement.find(:all, conditions: "board_id = #{@board.id} AND id IN (SELECT DISTINCT(advertisement_id) FROM tiles)").each do |advertisement| %>
 			<img id="ad_<%= advertisement.id %>_image" style="background: #3F647F; position: absolute; left: <%= advertisement.x_location * 64 %>px; top: <%= advertisement.y_location * 64 %>px; width: <%= advertisement.width * 64 %>px; height: <%= advertisement.height * 64 %>px; z-index: <%= advertisement.id %>;" src="/images/<%= advertisement.id %>" />
 			<% end %>
 		</div>

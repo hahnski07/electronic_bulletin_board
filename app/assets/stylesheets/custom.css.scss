@@ -203,7 +203,7 @@ input, textarea, select, .uneditable-input
 	@extend .error;
 }
 
-.users
+.users, .boards
 {
 	list-style: none;
 	margin: 0px;

@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 	before_filter :signed_in_user, only: [:index, :show]
 	before_filter :admin_user, only: [:index]
-	before_filter :current_user, only: [:show]
+	before_filter :correct_user, only: [:show]
 	
 	def show
 		@user = User.find(params[:id])
@@ -48,7 +48,7 @@ class UsersController < ApplicationController
 	end
 	
 	def destroy
-		if !User.find(params[:id]).admin?
+		if !User.find(params[:id]).admin? && User.find(params[:id]) != current_user
 			User.find(params[:id]).destroy
 			flash[:success] = "User destroyed."
 			redirect_to users_url

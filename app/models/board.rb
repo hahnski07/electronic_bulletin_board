@@ -23,21 +23,28 @@ class Board < ActiveRecord::Base
 	end
 	
 	def charge_account
-		payment_detail = self.user.payment_details.build(amount: -1.0 * width * height)
+		payment_detail = self.user.payment_details.build(amount: 1.0 * width * height)
 		payment_detail.payable = self
 		payment_detail.save()
 	end
 	
 	def age
-		#PaymentDetails
-		#Tile
-		#Advertisement
-	
-		cost = Tile.sum(:cost, joins: {advertisement: :board}, conditions: ['boards.id = ?', self.id])
+		#cost = Tile.sum(:cost, joins: {advertisement: :board}, conditions: ['boards.id = ?', self.id])
 		#if cost > 0.0
-			payment_detail = self.user.payment_details.build(amount: cost)
-			payment_detail.payable = self
-			payment_detail.save()
+		#	payment_detail = self.user.payment_details.build(amount: cost)
+		#	payment_detail.payable = self
+		#	payment_detail.save()
 		#end
+		
+		self.advertisements.each do |ad|
+			ad.charge
+			ActiveRecord::Base.connection.execute("Update tiles SET cost = CAST(cost / 2.0 * 100.0 AS int) / 100.0 WHERE advertisement_id = #{ad.id}")
+			#ad.tiles.each do |tile|
+			#	tile.age()
+			#	tile.save()
+			#end
+		end
+		
+		
 	end
 end

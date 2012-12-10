@@ -2,11 +2,11 @@
 <h1>All Boards</h1>
 
 <div><%= link_to "Create board", new_board_path, class: "btn btn-medium btn-primary" %></div>
-<ul class="boards">
+<ul class="boards" style="margin-top: 15px;">
 	<% @boards.each do |board| %>
 	<li>
-		<%= link_to board.name, board %>
-		(<%= board.width %>x<%= board.height %>)
+		<div><%= link_to board.name, board %> (<%= board.width %>x<%= board.height %>)</div>
+		<div style="padding-left: 10px;">Created <%= time_ago_in_words(board.created_at).capitalize %> by <%= board.user.name %></div>
 	</li>
 	<% end %>
 </ul>

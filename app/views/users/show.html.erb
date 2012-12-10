@@ -11,6 +11,8 @@
 	</aside>
 </div>
 
+<div><%= button_to "Create board", new_board_path, method: "get", class: "btn btn-medium btn-primary" %></div>
+
 <div style="margin-top: 10px;">
 	<h3>Account Activity</h3>
 	<%  dates = Hash.new

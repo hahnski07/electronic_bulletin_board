@@ -8,16 +8,16 @@ class Tile < ActiveRecord::Base
 	
 	validates :x_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 	validates :y_location, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
-	validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0 }
+	validates :cost, presence: true, numericality: {greater_than_or_equal_to: -0.5 }
 	
 	validate :size_constraints
 	
 	def age
-	
+		self.cost = (self.cost / BigDecimal.new('2.0')).truncate(2)
 	end
 	
 	def update_cost
-		if self.cost.nil?
+		if self.cost == -0.5
 			self.cost = 0.0
 		else
 			self.cost = [1.0, self.cost * 2.0].max

@@ -1,7 +1,7 @@
 class Advertisement < ActiveRecord::Base
 	attr_accessible :width, :height, :image, :x_location, :y_location, :image_contents
 	
-	after_create :update_tiles
+	after_create :update_tiles, :charge
 	
 	has_many :tiles
 	belongs_to :user
@@ -25,6 +25,7 @@ class Advertisement < ActiveRecord::Base
 				#@tile = Tile.joins(advertisement: :board, readonly: false).where("tiles.x_location = #{x} AND tiles.y_location = #{y} AND boards.id = #{board.id}").first
 				if @tile.nil?
 					@tile = self.tiles.build(x_location: x, y_location: y)
+					@tile.cost = -0.5
 					@tile.save()
 				else
 					@tile.advertisement_id = self.id
@@ -41,9 +42,9 @@ class Advertisement < ActiveRecord::Base
 	end
 	
 	def charge
-		cost = -Tile.sum(:cost, conditions: ['advertisement_id = ?', self.id])
+		cost = Tile.sum(:cost, conditions: ['advertisement_id = ?', self.id])
 	
-		if !cost.nil? && cost < 0.0
+		if !cost.nil? && cost > 0.0
 			payment_detail = self.user.payment_details.build(amount: cost)
 			payment_detail.payable = self
 			payment_detail.save()

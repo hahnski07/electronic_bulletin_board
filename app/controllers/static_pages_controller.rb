@@ -22,11 +22,6 @@ class StaticPagesController < ApplicationController
 	end
 	
 	def charge_advertisements
-		advertisements = Advertisement.all
-		advertisements.each do |advertisement|
-			advertisement.charge()
-		end
-		
 		boards = Board.all
 		boards.each do |board|
 			board.age()
